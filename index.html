@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Arthur Martins — Infraestrutura de TI &amp; Full Stack</title>
+<meta name="description" content="Arthur Martins — Estagiário de Infraestrutura de TI na Appmax e desenvolvedor Full Stack. PHP, Docker, PostgreSQL, APIs REST e automação de processos internos.">
+<meta name="author" content="Arthur Martins">
+<meta name="theme-color" content="#0A0A0A">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Arthur Martins — Infraestrutura de TI &amp; Full Stack">
+<meta property="og:description" content="Infraestrutura de TI na Appmax e desenvolvimento Full Stack. PHP, Docker, PostgreSQL e automação de processos internos.">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:image" content="assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="assets/og.jpg">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ PRELOADER ============ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__bar"><span id="loaderFill"></span></div>
+  <div class="loader__count"><span id="loaderNum">0</span><i>%</i></div>
+  <div class="loader__label">carregando</div>
+</div>
+
+<!-- ============ CURSOR ============ -->
+<div class="cursor" id="cursor" aria-hidden="true"><span></span></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav__brand" data-magnet>
+    <span class="nav__mark"></span>
+    <span>Arthur&nbsp;Martins</span>
+  </a>
+  <nav class="nav__links" aria-label="Navegação principal">
+    <a href="#sobre">Sobre</a>
+    <a href="#stack">Stack</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#trajetoria">Trajetória</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <a href="#game" class="nav__game" data-magnet>
+    <span class="nav__game-dot"></span> Jogar
+  </a>
+  <button class="nav__burger" id="burger" aria-label="Abrir menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true">
+  <div class="menu__list">
+    <a href="#sobre"><em>01</em> Sobre</a>
+    <a href="#stack"><em>02</em> Stack</a>
+    <a href="#projetos"><em>03</em> Projetos</a>
+    <a href="#trajetoria"><em>04</em> Trajetória</a>
+    <a href="#certificados"><em>05</em> Certificados</a>
+    <a href="#contato"><em>06</em> Contato</a>
+    <a href="#game"><em>07</em> Flappy ElePHPant</a>
+  </div>
+  <div class="menu__foot">
+    <a href="https://www.linkedin.com/in/arthur-martins-2720782b7/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://github.com/ZarthDev" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://blogdoarthur.infinityfree.me" target="_blank" rel="noopener">Blog</a>
+  </div>
+</div>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero__grain" aria-hidden="true"></div>
+  <div class="hero__glow" aria-hidden="true"></div>
+
+  <div class="hero__top">
+    <p class="eyebrow"><span class="pulse"></span> Porto Alegre · Rio Grande do Sul</p>
+    <p class="eyebrow eyebrow--right">2026 — presente</p>
+  </div>
+
+  <h1 class="hero__title">
+    <span class="l"><span>INFRA</span></span>
+    <span class="l l--in"><span>&amp; CÓDIGO</span></span>
+  </h1>
+
+  <div class="hero__bottom">
+    <div class="hero__id">
+      <p class="hero__name">Arthur Martins</p>
+      <p class="hero__role">Estagiário de Infraestrutura de TI <b>@ Appmax</b><br>Desenvolvedor Full Stack · PHP, C# e JavaScript</p>
+    </div>
+    <div class="hero__status">
+      <div class="badge">
+        <span class="badge__star">✳</span>
+        <div>
+          <strong>Aberto a novas ideias</strong>
+          <small>19 anos · ADS na Unisinos</small>
+        </div>
+      </div>
+      <a href="#sobre" class="scrollcue" aria-label="Rolar para baixo">
+        <svg viewBox="0 0 100 100" aria-hidden="true">
+          <defs><path id="circ" d="M50,50 m-34,0 a34,34 0 1,1 68,0 a34,34 0 1,1 -68,0"></path></defs>
+          <text><textPath href="#circ">ROLE PARA BAIXO · ROLE PARA BAIXO · </textPath></text>
+        </svg>
+        <i class="scrollcue__arrow"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>PHP</span><i>✳</i><span>DOCKER</span><i>✳</i><span>POSTGRESQL</span><i>✳</i><span>API REST</span><i>✳</i><span>JAVASCRIPT</span><i>✳</i><span>LINUX</span><i>✳</i><span>REDES</span><i>✳</i><span>C#</span><i>✳</i>
+    <span>PHP</span><i>✳</i><span>DOCKER</span><i>✳</i><span>POSTGRESQL</span><i>✳</i><span>API REST</span><i>✳</i><span>JAVASCRIPT</span><i>✳</i><span>LINUX</span><i>✳</i><span>REDES</span><i>✳</i><span>C#</span><i>✳</i>
+  </div>
+</div>
+
+<!-- ============ SOBRE ============ -->
+<section class="section sobre" id="sobre">
+  <p class="side-quote" aria-hidden="true">“ Da infraestrutura ao pixel, cada camada importa. ”</p>
+
+  <header class="section__head">
+    <span class="tag"><i>✳</i> 01 — Sobre</span>
+  </header>
+
+  <div class="sobre__grid">
+    <figure class="portrait reveal">
+      <div class="portrait__frame">
+        <img src="assets/arthur.jpg"
+             srcset="assets/arthur-sm.jpg 450w, assets/arthur.jpg 900w"
+             sizes="(max-width: 860px) 340px, 30vw"
+             alt="Retrato de Arthur Martins" width="900" height="1200" loading="lazy" decoding="async">
+        <span class="portrait__grid" aria-hidden="true"></span>
+      </div>
+      <figcaption>
+        <span class="portrait__name">Arthur Martins</span>
+        <span class="portrait__meta">Infra &amp; Dev · POA/RS</span>
+      </figcaption>
+    </figure>
+
+    <div class="sobre__text">
+    <div class="sobre__lead reveal">
+      <p>Tenho <b>19 anos</b>, sou estudante de <b>Análise e Desenvolvimento de Sistemas</b> e atuo na área de <b>Infraestrutura de TI na Appmax</b>, onde resolvo problemas reais, dou suporte aos colaboradores e construo as ferramentas internas que o time usa todo dia.</p>
+    </div>
+    <div class="sobre__body">
+      <p class="reveal">Desde criança sou apaixonado por tecnologia e sempre tive curiosidade em entender como as coisas funcionam. Foi essa curiosidade que me levou a criar jogos e desenvolver projetos por conta própria — e que acabou virando profissão.</p>
+      <p class="reveal">Paralelamente, sigo desenvolvendo projetos <b>Full Stack</b> para estudar, testar ideias e expandir meu portfólio. Tenho maior familiaridade com <b>PHP, C# e JavaScript</b>, sempre buscando soluções simples, funcionais e bem estruturadas.</p>
+      <p class="reveal">Grande parte da minha formação foi construída de maneira <b>autodidata</b>, tanto na programação quanto no inglês: documentações, cursos, projetos pessoais e conteúdo técnico. Aprender tecnologia é um processo contínuo — e é isso que me move.</p>
+
+      <div class="stats reveal">
+        <div class="stat"><b data-count="3">0</b><span>sistemas desenvolvidos do zero</span></div>
+        <div class="stat"><b data-count="20" data-suffix="+">0</b><span>cursos e projetos na formação web</span></div>
+        <div class="stat"><b data-count="2" data-suffix="º">0</b><span>semestre de ADS na Unisinos</span></div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STACK ============ -->
+<section class="section stack" id="stack">
+  <header class="section__head">
+    <span class="tag"><i>✳</i> 02 — Competências</span>
+    <h2 class="section__title">O que eu uso<br>para construir</h2>
+  </header>
+
+  <div class="drift" aria-hidden="true">
+    <div class="drift__row" data-drift="-1"><span>PHP</span><span class="ghost">DOCKER</span><span>POSTGRESQL</span></div>
+    <div class="drift__row" data-drift="1"><span class="ghost">API REST</span><span>JAVASCRIPT</span><span class="ghost">AJAX</span></div>
+    <div class="drift__row" data-drift="-1"><span>REDES</span><span class="ghost">VIRTUALIZAÇÃO</span><span>LGPD</span></div>
+  </div>
+
+  <div class="skills">
+    <article class="skillcard reveal">
+      <header><span class="skillcard__n">01</span><h3>Back-end &amp; Dados</h3></header>
+      <ul>
+        <li><span>PHP</span><i data-level="90"></i></li>
+        <li><span>PostgreSQL</span><i data-level="78"></i></li>
+        <li><span>MariaDB / MySQL</span><i data-level="80"></i></li>
+        <li><span>API REST &amp; Integrações</span><i data-level="85"></i></li>
+        <li><span>C#</span><i data-level="65"></i></li>
+      </ul>
+    </article>
+
+    <article class="skillcard reveal">
+      <header><span class="skillcard__n">02</span><h3>Front-end</h3></header>
+      <ul>
+        <li><span>HTML5</span><i data-level="92"></i></li>
+        <li><span>CSS3</span><i data-level="88"></i></li>
+        <li><span>JavaScript</span><i data-level="82"></i></li>
+        <li><span>AJAX</span><i data-level="78"></i></li>
+        <li><span>Bootstrap</span><i data-level="85"></i></li>
+      </ul>
+    </article>
+
+    <article class="skillcard reveal">
+      <header><span class="skillcard__n">03</span><h3>Infraestrutura</h3></header>
+      <ul>
+        <li><span>Docker</span><i data-level="80"></i></li>
+        <li><span>Linux / Shell</span><i data-level="75"></i></li>
+        <li><span>Virtualização</span><i data-level="72"></i></li>
+        <li><span>Redes &amp; Protocolo IP</span><i data-level="78"></i></li>
+        <li><span>Nginx Proxy Manager</span><i data-level="70"></i></li>
+      </ul>
+    </article>
+
+    <article class="skillcard reveal">
+      <header><span class="skillcard__n">04</span><h3>Processo &amp; Governança</h3></header>
+      <ul>
+        <li><span>Arquitetura de software</span><i data-level="72"></i></li>
+        <li><span>Segurança de rede</span><i data-level="70"></i></li>
+        <li><span>LGPD</span><i data-level="75"></i></li>
+        <li><span>Suporte &amp; Service Desk</span><i data-level="88"></i></li>
+        <li><span>Inglês técnico</span><i data-level="85"></i></li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<!-- ============ PROJETOS ============ -->
+<section class="section works" id="projetos">
+  <header class="section__head">
+    <span class="tag"><i>✳</i> 03 — Projetos selecionados</span>
+    <h2 class="section__title">Coisas que<br>eu coloquei de pé</h2>
+  </header>
+
+  <div class="works__grid">
+    <div class="works__list" id="worksList">
+
+      <article class="work is-active" data-work="1">
+        <span class="work__year">2026 <i class="work__dot"></i></span>
+        <h3>MaxAssinature</h3>
+        <p>Assinatura eletrônica self-hosted com validade jurídica</p>
+        <span class="work__cat">Plataforma interna &rarr;</span>
+        <div class="work__panel">
+          <div class="work__panel-in">
+          <p>Emitir e coletar assinaturas de termos de responsabilidade era um processo manual e lento — e as opções de mercado cobravam por documento e mantinham dados sensíveis em nuvem de terceiros.</p>
+          <p>Construí uma plataforma <b>self-hosted</b> sobre o motor open-source Documenso, com uma <b>API própria em PHP</b> que orquestra todo o fluxo: recebe os PDFs, gera a página final de assinaturas, isola documentos por time, integra com o Slack e oferece verificação pública de autenticidade por <b>hash SHA-256</b>. Padrão PAdES com carimbo de tempo.</p>
+          <ul class="work__tags"><li>PHP</li><li>Docker</li><li>PostgreSQL</li><li>MinIO</li><li>Nginx Proxy Manager</li><li>Slack API</li></ul>
+          <p class="work__result"><b>Resultado:</b> custo por documento eliminado, dados na infraestrutura própria da empresa (LGPD) e rastreabilidade total com trilha de auditoria.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="work" data-work="2">
+        <span class="work__year">2026</span>
+        <h3>Painel TI</h3>
+        <p>Dashboard pessoal de organização e produtividade</p>
+        <span class="work__cat">Projeto pessoal &rarr;</span>
+        <div class="work__panel">
+          <div class="work__panel-in">
+          <p>Um painel só meu para não perder nada de vista no dia a dia da TI: demandas, agenda, metas e anotações em uma tela só, no lugar de post-its e abas abertas.</p>
+          <p>SPA em <b>JavaScript puro</b> com barra lateral e cinco seções — visão geral com KPIs e <b>gráficos desenhados em SVG na mão</b>, sem biblioteca; quadro kanban com arrastar e soltar; metas com progresso; notas com salvamento automático. A agenda passa por um <b>proxy em PHP</b> que baixa e interpreta o feed iCal, incluindo eventos recorrentes.</p>
+          <ul class="work__tags"><li>JavaScript</li><li>PHP</li><li>SVG</li><li>HTML5</li><li>CSS3</li><li>iCal</li></ul>
+          <p class="work__result"><b>Resultado:</b> tudo o que eu preciso acompanhar em um único lugar, com tema claro e escuro e sem depender de serviço de terceiros.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="work" data-work="3">
+        <span class="work__year">2026</span>
+        <h3>Kanban GLPI + Jira</h3>
+        <p>Plugin que traz o quadro do Jira para dentro do GLPI</p>
+        <span class="work__cat">Plugin open source &rarr;</span>
+        <div class="work__panel">
+          <div class="work__panel-in">
+          <p>Plugin em PHP para o GLPI que adiciona uma aba de Projetos trazendo o quadro do Jira para dentro da ferramenta de chamados — o time acompanha as demandas sem precisar trocar de sistema.</p>
+          <p>Compatível com GLPI 10 e 11, consumindo a API Cloud do Jira com paginação por token e endpoints AJAX próprios.</p>
+          <ul class="work__tags"><li>PHP</li><li>GLPI API</li><li>Jira Cloud API</li><li>AJAX</li></ul>
+          <p class="work__result"><b>Resultado:</b> uma única tela para chamados e projetos.</p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <aside class="works__view" aria-hidden="true">
+      <div class="works__sticky">
+        <div class="wcard is-on" data-view="1"><span class="wcard__num">01</span><div class="wcard__art art--1"></div><b>MaxAssinature</b><small>PHP · Docker · PostgreSQL</small></div>
+        <div class="wcard" data-view="2"><span class="wcard__num">02</span><div class="wcard__art art--3"></div><b>Painel TI</b><small>JavaScript · PHP · SVG</small></div>
+        <div class="wcard" data-view="3"><span class="wcard__num">03</span><div class="wcard__art art--4"></div><b>Kanban GLPI</b><small>PHP · Jira API · AJAX</small></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ TRAJETÓRIA ============ -->
+<section class="section path" id="trajetoria">
+  <header class="section__head">
+    <span class="tag"><i>✳</i> 04 — Trajetória</span>
+    <h2 class="section__title">Experiência<br>&amp; formação</h2>
+  </header>
+
+  <div class="path__cols">
+    <div class="path__col">
+      <h4 class="path__kicker">Experiência</h4>
+
+      <div class="tl reveal">
+        <span class="tl__when">set 2026 — presente</span>
+        <h3>Estagiário de Infraestrutura de TI</h3>
+        <p class="tl__where">Appmax · Porto Alegre — Híbrido</p>
+        <p>Suporte aos colaboradores, gestão de ativos e inventário, virtualização e desenvolvimento das ferramentas internas do time de TI.</p>
+        <ul class="chips"><li>Infraestrutura de TI</li><li>Virtualização</li><li>Desenvolvimento de API</li><li>Sistemas de informação</li></ul>
+      </div>
+
+      <div class="tl reveal">
+        <span class="tl__when">jun 2026 — set 2026</span>
+        <h3>Jovem Aprendiz — Infraestrutura de TI</h3>
+        <p class="tl__where">Appmax · Porto Alegre — Híbrido</p>
+        <p>Primeiro contato com o ambiente corporativo de tecnologia: atendimento de chamados, preparação de equipamentos e desenvolvimento front-end das primeiras ferramentas internas.</p>
+        <ul class="chips"><li>Service Desk</li><li>Front-end</li><li>Infraestrutura de TI</li></ul>
+      </div>
+
+      <div class="tl reveal">
+        <span class="tl__when">contínuo</span>
+        <h3>Projetos próprios</h3>
+        <p class="tl__where">Fora do expediente</p>
+        <p>Desenvolvimento Full Stack como forma de estudar, testar ideias novas e expandir o portfólio — a maior parte do que está aqui nasceu assim.</p>
+        <ul class="chips"><li>PHP</li><li>JavaScript</li><li>C#</li></ul>
+      </div>
+    </div>
+
+    <div class="path__col">
+      <h4 class="path__kicker">Formação</h4>
+
+      <div class="tl tl--edu reveal">
+        <span class="tl__when">mar 2026 — nov 2029 · 2º semestre</span>
+        <h3>Análise e Desenvolvimento de Sistemas</h3>
+        <p class="tl__where">Universidade do Vale do Rio dos Sinos — Unisinos</p>
+        <p>Graduação em andamento, com ênfase em desenvolvimento web, programação orientada a objetos e sistemas de informação.</p>
+        <ul class="chips"><li>Desenvolvimento web</li><li>POO</li><li>Banco de dados</li></ul>
+      </div>
+
+      <div class="tl tl--edu reveal">
+        <span class="tl__when">mar 2022 — dez 2025</span>
+        <h3>Ensino Médio</h3>
+        <p class="tl__where">EEEM Santa Rosa</p>
+      </div>
+
+      <div class="tl tl--edu reveal">
+        <span class="tl__when">contínuo</span>
+        <h3>Autodidata</h3>
+        <p class="tl__where">Documentações, cursos e projetos pessoais</p>
+        <p>Programação e inglês construídos por conta própria — a base de praticamente tudo que está neste portfólio.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICADOS ============ -->
+<section class="section certs" id="certificados">
+  <header class="section__head">
+    <span class="tag"><i>✳</i> 05 — Licenças e certificados</span>
+  </header>
+
+  <div class="certs__list">
+    <a class="cert reveal" href="https://www.udemy.com/certificate/UC-4982b256-1b56-4b9d-a586-4aa7a67d3c74/" target="_blank" rel="noopener">
+      <span class="cert__issuer">Udemy Brasil</span>
+      <h3>Desenvolvimento Web Completo<br><span>20 cursos + 20 projetos</span></h3>
+      <div class="cert__meta">
+        <span>Emitido em abr/2025</span>
+        <code>UC-4982b256</code>
+      </div>
+      <ul class="chips"><li>HTML5</li><li>CSS</li><li>JavaScript</li><li>AJAX</li><li>MariaDB</li><li>+10</li></ul>
+      <span class="cert__go">Ver credencial ↗</span>
+    </a>
+
+    <a class="cert reveal" href="https://www.udemy.com/certificate/UC-3116b9f3-b9a5-4515-b983-2905761f7076/" target="_blank" rel="noopener">
+      <span class="cert__issuer">Udemy Brasil</span>
+      <h3>Redes de Computadores<br><span>do básico ao avançado</span></h3>
+      <div class="cert__meta">
+        <span>Emitido em ago/2026</span>
+        <code>UC-3116b9f3</code>
+      </div>
+      <ul class="chips"><li>Redes de computadores</li><li>Arquitetura de rede</li><li>Segurança</li><li>Protocolo IP</li></ul>
+      <span class="cert__go">Ver credencial ↗</span>
+    </a>
+  </div>
+</section>
+
+<!-- ============ GAME ============ -->
+<section class="section game" id="game">
+  <header class="section__head">
+    <span class="tag"><i>✳</i> 06 — Pausa para o café</span>
+    <h2 class="section__title">Flappy<br>ElePHPant</h2>
+    <p class="section__sub">Comecei na programação fazendo joguinhos. Esse aqui é por conta da casa — o elefante do PHP contra os canos. Clique, toque ou aperte <kbd>espaço</kbd>.</p>
+  </header>
+
+  <div class="game__wrap">
+    <div class="game__stage">
+      <canvas id="flappy" width="480" height="640" role="img" aria-label="Mini game estilo Flappy Bird com o elefante do PHP"></canvas>
+      <div class="game__hud">
+        <div class="game__score"><span>PONTOS</span><b id="gScore">0</b></div>
+        <div class="game__score game__score--best"><span>RECORDE</span><b id="gBest">0</b></div>
+      </div>
+      <button class="game__sound" id="gSound" aria-label="Alternar som">♪</button>
+    </div>
+    <div class="game__side">
+      <p class="game__tip"><b>Controles</b><br>Clique / toque na tela<br><kbd>Espaço</kbd> ou <kbd>↑</kbd> para bater as asas<br><kbd>P</kbd> pausa · <kbd>R</kbd> reinicia</p>
+      <p class="game__tip"><b>Por que um elefante?</b><br>O elePHPant é o mascote do PHP — a linguagem em que a maior parte dos projetos deste portfólio foi escrita.</p>
+      <p class="game__credit">Feito do zero em Canvas 2D e JavaScript puro, sem bibliotecas.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTATO ============ -->
+<section class="section contact" id="contato">
+  <div class="contact__top">
+    <header class="section__head">
+      <span class="tag"><i>✳</i> 07 — Contato</span>
+      <h2 class="section__title">Vamos<br>conversar</h2>
+      <p class="section__sub">Aberto a novas ideias, projetos e trocas sobre infraestrutura, PHP e automação. Respondo rápido.</p>
+    </header>
+
+    <a href="#formulario" class="bigcta" data-magnet>
+      <span>Fale<br>comigo</span>
+    </a>
+  </div>
+
+  <div class="contact__grid">
+    <form class="form" id="formulario" name="contato" method="POST"
+          data-netlify="true" netlify-honeypot="empresa-bot" action="/obrigado.html">
+      <input type="hidden" name="form-name" value="contato">
+      <p class="hp"><label>Não preencha: <input name="empresa-bot"></label></p>
+
+      <div class="field">
+        <input type="text" id="nome" name="nome" required placeholder=" " autocomplete="name">
+        <label for="nome">Seu nome</label>
+      </div>
+      <div class="field">
+        <input type="email" id="email" name="email" required placeholder=" " autocomplete="email">
+        <label for="email">Seu e-mail</label>
+      </div>
+      <div class="field">
+        <input type="text" id="assunto" name="assunto" placeholder=" ">
+        <label for="assunto">Assunto</label>
+      </div>
+      <div class="field">
+        <textarea id="mensagem" name="mensagem" rows="5" required placeholder=" "></textarea>
+        <label for="mensagem">Mensagem</label>
+      </div>
+      <button type="submit" class="btn" data-magnet>Enviar mensagem <i>→</i></button>
+      <p class="form__note">Costumo responder em até um dia útil. Se preferir, me chame direto no LinkedIn.</p>
+    </form>
+
+    <div class="contact__links">
+      <a href="https://www.linkedin.com/in/arthur-martins-2720782b7/" target="_blank" rel="noopener">
+        <b>LinkedIn</b><span>/in/arthur-martins</span><i>↗</i>
+      </a>
+      <a href="https://github.com/ZarthDev" target="_blank" rel="noopener">
+        <b>GitHub</b><span>@ZarthDev</span><i>↗</i>
+      </a>
+      <a href="mailto:arthurteixeiramartins310807@gmail.com">
+        <b>E-mail</b><span>arthurteixeiramartins310807@gmail.com</span><i>↗</i>
+      </a>
+      <a href="https://wa.me/5551986928804" target="_blank" rel="noopener">
+        <b>WhatsApp</b><span>(51) 98692-8804</span><i>↗</i>
+      </a>
+      <a href="https://blogdoarthur.infinityfree.me" target="_blank" rel="noopener">
+        <b>Blog</b><span>blogdoarthur.infinityfree.me</span><i>↗</i>
+      </a>
+      <div class="contact__where">
+        <span class="pulse"></span>
+        Porto Alegre · RS · Brasil<br>
+        <small>Disponível para remoto e híbrido</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__big" aria-hidden="true">ARTHUR MARTINS</div>
+  <div class="footer__row">
+    <span>© <span id="year">2026</span> Arthur Martins</span>
+    <span>Feito à mão com HTML, CSS e JavaScript</span>
+    <a href="#top" data-magnet>Voltar ao topo ↑</a>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+<script src="js/game.js" defer></script>
+</body>
+</html>

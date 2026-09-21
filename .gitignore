@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# ferramentas locais
+.claude/
+*.log
+
+# arquivos temporários de captura
+_shot.html
