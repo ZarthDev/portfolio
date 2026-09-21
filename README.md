@@ -29,7 +29,7 @@ Sem framework, sem build, sem `node_modules` — é só abrir o `index.html`.
 
 ---
 
-## ✳ Sobre o projeto
+## Sobre o projeto
 
 Tenho 19 anos, estudo **Análise e Desenvolvimento de Sistemas** na Unisinos e trabalho com
 **Infraestrutura de TI na Appmax**, onde também desenvolvo as ferramentas internas do time.
@@ -43,7 +43,7 @@ um pouco de Canvas.
 
 <br>
 
-## ✳ O que tem aqui
+## O que tem aqui
 
 | | |
 |---|---|
@@ -61,7 +61,7 @@ um pouco de Canvas.
 
 <br>
 
-## ✳ Galeria
+## Galeria
 
 <div align="center">
 
@@ -75,7 +75,7 @@ um pouco de Canvas.
 
 <br>
 
-## ✳ Flappy ElePHPant
+## Flappy ElePHPant
 
 <img src="docs/preview/game.jpg" alt="Flappy ElePHPant" align="right" width="42%">
 
@@ -112,7 +112,7 @@ var SPAWN_X     = 290;    // distância entre um cano e outro
 
 <br clear="right">
 
-## ✳ Estrutura
+## Estrutura
 
 ```
 portfolio/
@@ -131,7 +131,7 @@ portfolio/
 
 <br>
 
-## ✳ Rodando localmente
+## Rodando localmente
 
 Como não há build, qualquer servidor estático resolve:
 
@@ -147,7 +147,7 @@ funciona para quase tudo, mas o formulário só responde publicado.
 
 <br>
 
-## ✳ Deploy no Netlify
+## Deploy no Netlify
 
 **Arrastar e soltar** — o caminho mais rápido:
 
@@ -171,7 +171,7 @@ O formulário tem honeypot anti-spam e redireciona para `obrigado.html` depois d
 
 <br>
 
-## ✳ Projetos em destaque no site
+## Projetos em destaque no site
 
 | Projeto | O que é |
 |---|---|
@@ -181,7 +181,7 @@ O formulário tem honeypot anti-spam e redireciona para `obrigado.html` depois d
 
 <br>
 
-## ✳ Contato
+## Contato
 
 <div align="center">
 
@@ -195,7 +195,7 @@ Porto Alegre · Rio Grande do Sul · Brasil
 
 <br>
 
-## ✳ Licença
+## Licença
 
 [MIT](LICENSE) — sinta-se à vontade para usar o código como referência.
 Só peço que o conteúdo pessoal (textos, foto e projetos) fique comigo. 🙂
