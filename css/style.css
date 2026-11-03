@@ -490,7 +490,7 @@ body.is-ready .hero__title .l--in>span{transition-delay:.12s}
   gap:1px;background:var(--line);border:1px solid var(--line);
 }
 @media (min-width:660px){.skills{grid-template-columns:repeat(2,1fr)}}
-@media (min-width:1280px){.skills{grid-template-columns:repeat(4,1fr)}}
+@media (min-width:1180px){.skills{grid-template-columns:repeat(3,1fr)}}
 .skillcard{background:var(--black);padding:clamp(24px,3vw,38px);transition:background .45s}
 .skillcard:hover{background:var(--black-3)}
 .skillcard header{display:flex;align-items:baseline;gap:12px;margin-bottom:26px}
@@ -633,6 +633,14 @@ body.is-ready .hero__title .l--in>span{transition-delay:.12s}
   radial-gradient(85% 65% at 50% 100%, rgba(142,14,34,.55), transparent 60%),
   repeating-linear-gradient(45deg, rgba(246,244,242,.04) 0 3px, transparent 3px 18px),
   linear-gradient(20deg,#1A0208,#0A0A0A)}
+.art--6{background:
+  radial-gradient(75% 60% at 25% 25%, rgba(232,54,76,.4), transparent 62%),
+  repeating-linear-gradient(0deg, rgba(246,244,242,.05) 0 2px, transparent 2px 20px),
+  linear-gradient(240deg,#1E030B,#0A0A0A)}
+.art--7{background:
+  conic-gradient(from 40deg at 35% 65%, rgba(142,14,34,.55), transparent 42%, rgba(195,19,41,.4)),
+  repeating-linear-gradient(90deg, rgba(246,244,242,.04) 0 2px, transparent 2px 15px),
+  linear-gradient(300deg,#210410,#0A0A0A)}
 
 /* =========================================================
    TRAJETÓRIA

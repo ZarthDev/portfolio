@@ -175,9 +175,13 @@ O formulário tem honeypot anti-spam e redireciona para `obrigado.html` depois d
 
 | Projeto | O que é |
 |---|---|
-| **MaxAssinature** | Plataforma de assinatura eletrônica self-hosted com validade jurídica (PAdES + carimbo de tempo), construída sobre o Documenso com uma API própria em PHP. |
+| **ContractOS** | Controle de contratos e faturas de TI que substituiu uma planilha manual, com alertas de vencimento, leitura automática do PDF da fatura e deploy por pipeline. |
+| **MaxAssinature** | Assinatura eletrônica self-hosted com validade jurídica (PAdES + carimbo de tempo), sobre o Documenso, com API própria em PHP e worker de backup em Go. |
+| **MaxCycle** | Plugin do GLPI 11 que leva a política de ciclo de vida de equipamentos para dentro do sistema de chamados, com bot de Slack próprio. |
+| **Bots de Slack** | Dois bots em PHP: um opera faturas pela conversa, o outro responde dúvidas pela base de conhecimento e abre chamado quando não resolve. |
 | **Painel TI** | Dashboard pessoal de organização: demandas em kanban, agenda, metas e notas, com gráficos em SVG desenhados na mão. |
-| **Kanban GLPI + Jira** | Plugin em PHP que traz o quadro do Jira para dentro do GLPI, sem precisar trocar de sistema. |
+| **PixLab** | Laboratório de mensageria e idempotência: RabbitMQ, DLQ, Transactional Outbox e Kafka, em nove etapas. |
+| **Alfred** | Assistente de voz em português rodando em hardware antigo, com reconhecimento de gestos pela câmera. |
 
 <br>
 
