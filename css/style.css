@@ -698,10 +698,15 @@ body.is-ready .hero__title .l--in>span{transition-delay:.12s}
   gap:1px;background:var(--line);border:1px solid var(--line);
 }
 .cert{
-  position:relative;display:block;flex:1 1 360px;background:var(--black);
+  position:relative;display:block;flex:1 1 100%;background:var(--black);
   padding:clamp(26px,3.4vw,44px);overflow:hidden;
   transition:background .5s var(--ease);
 }
+/* número de colunas fixo por faixa: com 5 cartões o desktop fica 3 + 2,
+   e a última linha se estica sozinha (flex-grow) em vez de deixar vão cinza */
+@media (min-width:660px){.cert{flex-basis:calc(50% - 1px)}}
+@media (min-width:1060px){.cert{flex-basis:calc(33.333% - 1px)}}
+
 .cert::after{
   content:'';position:absolute;left:0;right:0;bottom:0;height:2px;
   background:linear-gradient(90deg,var(--wine),var(--wine-glow));
