@@ -6,7 +6,7 @@
 
 # Portfólio · Arthur Martins
 
-**Infraestrutura de TI &amp; desenvolvimento Full Stack**
+**DevOps &amp; Infraestrutura de TI**
 
 Site pessoal de página única, escrito à mão em HTML, CSS e JavaScript.<br>
 Sem framework, sem build, sem `node_modules` — é só abrir o `index.html`.
@@ -31,8 +31,9 @@ Sem framework, sem build, sem `node_modules` — é só abrir o `index.html`.
 
 ## Sobre o projeto
 
-Tenho 19 anos, estudo **Análise e Desenvolvimento de Sistemas** na Unisinos e trabalho com
-**Infraestrutura de TI na Appmax**, onde também desenvolvo as ferramentas internas do time.
+Tenho 19 anos, estudo **Análise e Desenvolvimento de Sistemas** na Unisinos e trabalho na
+**Infraestrutura de TI da Appmax**, hoje caminhando para **DevOps**: containers, CI/CD,
+observabilidade e automação.
 
 Este repositório é o meu portfólio — e ele é, ao mesmo tempo, uma amostra do trabalho e
 uma peça do trabalho. Decidi construir tudo do zero, sem framework, justamente porque a
@@ -175,6 +176,7 @@ O formulário tem honeypot anti-spam e redireciona para `obrigado.html` depois d
 
 | Projeto | O que é |
 |---|---|
+| **Observabilidade** | Stack do Grafana (Loki, Prometheus, Tempo e Alloy) para logs, métricas e alertas das ferramentas internas, com 25 alertas caindo no Slack. |
 | **ContractOS** | Controle de contratos e faturas de TI que substituiu uma planilha manual, com alertas de vencimento, leitura automática do PDF da fatura e deploy por pipeline. |
 | **MaxAssinature** | Assinatura eletrônica self-hosted com validade jurídica (PAdES + carimbo de tempo), sobre o Documenso, com API própria em PHP e worker de backup em Go. |
 | **MaxCycle** | Plugin do GLPI 11 que leva a política de ciclo de vida de equipamentos para dentro do sistema de chamados, com bot de Slack próprio. |
@@ -191,7 +193,7 @@ O formulário tem honeypot anti-spam e redireciona para `obrigado.html` depois d
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=C31329)](https://www.linkedin.com/in/arthur-martins-2720782b7/)
 [![GitHub](https://img.shields.io/badge/GitHub-0A0A0A?style=for-the-badge&logo=github&logoColor=C31329)](https://github.com/ZarthDev)
-[![Blog](https://img.shields.io/badge/Blog-0A0A0A?style=for-the-badge&logo=rss&logoColor=C31329)](https://blogdoarthur.infinityfree.me)
+[![Blog](https://img.shields.io/badge/Blog-0A0A0A?style=for-the-badge&logo=rss&logoColor=C31329)](https://blog.inkernel.workers.dev/)
 
 Porto Alegre · Rio Grande do Sul · Brasil
 
